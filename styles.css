@@ -1,0 +1,36 @@
+/*
+CSS Selector = hva skal vi endre? header
+CSS Decleration = blokken hvor koden finned {}
+CSS Rule = hva og hvordan skal ting endred property:value; display:flex; */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutText, .aboutImg {
+  width: 50%;
+}
