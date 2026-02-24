@@ -31,6 +31,11 @@ ul {
   align-items: center;
 }
 
-.aboutText, .aboutImg {
+.aboutText,{
   width: 50%;
+}
+
+.aboutImg {
+  height: 650px;
+  width: 400px;
 }
